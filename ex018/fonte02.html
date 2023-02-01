@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br  ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'dragons';
+            src: url('fontes/EG_Dragon_Caps.otf') format('opentype'), url('fontes/EG_Dragon_Caps.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            -opentype(otf)
+            -truetype(ttf)
+            -truetype-aat (Apple-advanced typography)
+            -svg
+            */
+        }
+    
+        body{
+            font-family: dragons, Helvetica, sans-serif;
+            background-color: rgb(31, 30, 30);
+            color: bisque;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-family: 'dragons', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Pedro, o matador de dragões</h1>
+    <p>O grande herói Pedro, ganha a vida matando dragões conquistando o coração das donzelas em perigo</p>
+
+
+</body>
+</html>
