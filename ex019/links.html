@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudo class
+        :: = pseudo element
+        > = children
+
+
+        */
+
+        body{
+            background-color: rgb(40, 38, 38);
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkblue
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: yellow;
+        }
+       .especial::before{
+            content: '♬';
+            color: aquamarine;
+            font-weight: normal;
+        
+        }
+        .especial::after{ /*pseudo elemento tem dois pontos duas vezes*/
+            content: '    ♬';
+            color: aquamarine;
+            font-weight: normal;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li><a href="https://github.com/joaopauloms1001" target="_blank" class="especial">it joaopauloms1001</a></li>
+        <li><a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-marins-santos-285b1b138/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://engmecanicojoaosantos.com/" target="_blank">Emjs</a></li>
+    </ul>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vPNIAJ9B4hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
