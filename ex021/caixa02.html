@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(202, 190, 190);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(216, 216, 216);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+
+            box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.342);
+        }
+        nav{
+            background-color: aliceblue;
+            color: rgb(135, 135, 135);
+            font-weight: bold;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+        }
+        nav > a:hover{
+            color: rgb(125, 125, 125);
+            text-decoration: underline;
+            margin-right: 30px;
+        }
+        main{
+            background-color: rgb(142, 142, 142);
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: rgb(67, 67, 67);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: azure;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Santos FC</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Hoje tem Santos!</p>
+
+
+        </section>
+        <section id="noticias"></section>
+        <section>
+            <article>
+                <h2>Time grande nao cai</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sed iste sequi qui minima libero odit eveniet obcaecati aut id, distinctio inventore consequuntur, maxime laudantium pariatur quos adipisci! Vero, deserunt.</p>
+                <aside>
+                    <p>escrito por: CapitaoJhon01</p>
+                </aside>
+            </article>
+
+            <article>
+
+
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>desenvolvido por João Santos</p>
+    </footer>
+    
+    
+</body>
+</html>
